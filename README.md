@@ -9,7 +9,9 @@
 - Theme: sugar-dark
 - Config path: /usr/share/sddm/themes/sugar-dark
 # Logout
-- Package: Swaylock
+- Package: wlogout
+# Lock
+- Package: hyprlock
 # Bar
 - Package: Waybar
 # Serch apps
