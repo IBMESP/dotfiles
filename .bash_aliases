@@ -8,8 +8,8 @@ alias l='ls -aFl'
 alias cat='bat'
 
 # apps aliases
-#IDEA_DIR=$(ls -d /opt/idea-IC-* | sort -V | tail -n 1)
-#alias idea='$IDEA_DIR/bin/idea.sh'
+IDEA_DIR=$(ls -d /opt/idea-IC-* | sort -V | tail -n 1)
+alias idea='$IDEA_DIR/bin/idea.sh'
 #alias obsidian='/opt/Obsidian-1.5.3.AppImage'
 
 # uxplay
