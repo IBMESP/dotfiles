@@ -17,3 +17,5 @@
 # Serch apps
 - Package: Rofi/Wofi
 - Theme: grubvox-hard
+# Idle
+- Package: hypridle
