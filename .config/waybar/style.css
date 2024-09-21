@@ -69,7 +69,11 @@ button:hover {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #6a4d75;
+}
+
+#workspaces button.persistent {
+    color: #173e7d;
 }
 
 #workspaces button.active {
@@ -119,15 +123,16 @@ button:hover {
 
 #clock {
     background-color: #000000;
+    color: #ff7d25;
 }
 
 #battery {
     background-color: #000000;
-    color: #ffffff;
+    color: #ff7d25;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: #ff7d25;
     background-color: #000000;
 }
 
@@ -141,7 +146,7 @@ button:hover {
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #000000;
-    color: #ffffff;
+    color: #ff7d25;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -191,12 +196,12 @@ label:focus {
 
 #network {
     background-color: #000000;
-    color: #ffffff;
+    color: #ff7d25;
 }
 
 #network.disconnected {
     background-color: #000000;
-    color: #ffffff;
+    color: #ff7d25;
 }
 
 #pulseaudio {
@@ -241,7 +246,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: #173e7d;
 }
 
 #tray > .passive {
@@ -330,4 +335,12 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+
+#custom-powermenu {
+    color: #ff7d25;
+}
+
+#custom-appmenuicon {
+    color: #ff7d25;
 }
