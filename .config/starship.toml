@@ -1,16 +1,12 @@
 format = """
 [  ](bg:ow_orange fg:#e0e0ce)\
-[](fg:ow_orange)\
-
-[](fg:ow_blue)\
+[](fg:ow_orange)\
+[](fg:ow_blue)\
 $directory\
 [](fg:ow_blue)\
 
-[](fg:ow_blue)\
-[ ](fg:ow_blue bg:ow_blue)\
 $git_branch\
 $git_status\
-[](fg:ow_blue)\
 
 \n$character"""
 
@@ -38,10 +34,15 @@ truncation_symbol = "…/"
 dotfiles = " "
 
 [git_branch]
-symbol = " "
+symbol = ""
 style = "bg:ow_blue"
-format = '[[$symbol $branch ](fg:#769ff0 bg:ow_blue)]($style)'
+format = """
+[](fg:ow_blue)\
+[](fg:ow_blue bg:ow_blue)\
+[[$symbol $branch ](fg:#769ff0 bg:ow_blue)]($style)"""
 
 [git_status]
 style = "bg:ow_blue"
-format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:ow_blue)]($style)'
+format = """
+[[($all_status$ahead_behind )](fg:#769ff0 bg:ow_blue)]($style)\
+[](fg:ow_blue)"""

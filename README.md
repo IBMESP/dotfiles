@@ -1,5 +1,5 @@
 # Audio
-- Package: PipeWire
+- Package: PipeWire PipeWire-Pulse PavuControl
 # Bluethooth
 - Package: 
 # Theme configuration

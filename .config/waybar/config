@@ -18,6 +18,8 @@
     "modules-right": [
       "battery",
       "custom/sep",
+      "pulseaudio",
+      "custom/sep",
       "network",
       "custom/sep",
       "clock",
@@ -57,10 +59,10 @@
       "on-scroll-up": "hyprctl dispatch workspace e-1",
       "on-scroll-down": "hyprctl dispatch workspace e+1",
       "format-icons": {
-        "1": " ",
-        "2": "󰨞 ",
-        "3": " ",
-        "4": "󰚯 ",
+        "1": "",
+        "2": "󰨞",
+        "3": "",
+        "4": "󰚯",
         "5": "5"
       },
       "persistent-workspaces": {
@@ -117,12 +119,10 @@
     },
 
     "pulseaudio": {
-      "format": "{icon}  {volume}%",
+      "format": "{icon} {volume}%",
       "format-bluetooth": "{volume}% {icon} {format_source}",
       "format-bluetooth-muted": " {icon} {format_source}",
-      "format-muted": " {format_source}",
-      "format-source": "{volume}% ",
-      "format-source-muted": "",
+      "format-muted": "󰝟 ",
       "format-icons": {
         "headphone": " ",
         "hands-free": " ",
@@ -132,7 +132,8 @@
         "car": " ",
         "default": [" ", " ", " "]
       },
-      "on-click": "pavucontrol"
+      "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle ; pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+      "on-click-right": "pavucontrol"
     },
 
     "backlight": {

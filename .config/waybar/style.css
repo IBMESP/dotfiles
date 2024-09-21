@@ -44,14 +44,14 @@ button {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ff7d25;
+    /*background: inherit;
+    box-shadow: inset 0 -3px #ff7d25;*/
 }
 
 /* you can set a style on hover for any module like this */
-#pulseaudio:hover {
+/*#pulseaudio:hover {
     background-color: #a37800;
-}
+}*/
 
 #workspaces button {
     padding: 0 5px;
@@ -205,13 +205,13 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    /*background-color: #f1c40f;*/
+    color: #ff7d25;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    /*background-color: #90b1b1;*/
+    color: #ff7d25;
 }
 
 #wireplumber {
