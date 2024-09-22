@@ -138,14 +138,14 @@ button:hover {
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #6a4d75;
+        color: #ff7d25;
     }
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    /*background-color: #000000;*/
+    /*background-color: #173e7d;*/
     color: #ff7d25;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -343,4 +343,14 @@ label:focus {
 
 #custom-appmenuicon {
     color: #ff7d25;
+}
+
+#custom-idea {
+    color: #ff7d25;
+    /*background-color: #000000;*/
+}
+
+#custom-dotfiles {
+    color: #ff7d25;
+    /*background-color: #000000;*/
 }

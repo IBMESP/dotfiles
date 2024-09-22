@@ -31,7 +31,7 @@ truncation_symbol = "…/"
 "Music" = " "
 "Pictures" = " "
 "Uni" = " "
-dotfiles = " "
+dotfiles = ""
 
 [git_branch]
 symbol = ""
