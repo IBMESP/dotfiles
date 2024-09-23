@@ -8,6 +8,8 @@ $directory\
 $git_branch\
 $git_status\
 
+$sudo\
+
 \n$character"""
 
 palette = 'ow'
@@ -15,6 +17,7 @@ palette = 'ow'
 [palettes.ow]
 ow_orange='#ff7d25'
 ow_blue='#174e7d'
+ow_purple='#6a4d75'
 
 [fill]
 symbol = ' ' 
@@ -32,6 +35,7 @@ truncation_symbol = "…/"
 "Pictures" = " "
 "Uni" = " "
 dotfiles = ""
+"GodotProjects" = ""
 
 [git_branch]
 symbol = ""
@@ -46,3 +50,12 @@ style = "bg:ow_blue"
 format = """
 [[($all_status$ahead_behind )](fg:#769ff0 bg:ow_blue)]($style)\
 [](fg:ow_blue)"""
+
+[sudo]
+disabled=false
+symbol = "󰖷 "
+format= """
+[](fg:ow_purple)\
+[ $symbol](bg:ow_purple fg:#e0e0ce)\
+[](fg:ow_purple bg:ow_purple)\
+[](fg:ow_purple)"""
