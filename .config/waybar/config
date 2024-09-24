@@ -6,9 +6,9 @@
 
     "modules-left": [
       "custom/sep",
-      "tray",
-      "custom/sep",
       "custom/appmenuicon",
+      "custom/sep",
+      "tray",
       "custom/sep",
       "custom/dotfiles"
     ],
