@@ -14,3 +14,6 @@ alias idea='$IDEA_DIR/bin/idea.sh'
 
 # uxplay
 #alias ipad='uxplay -d -p'
+
+# dotfiles
+alias dotfiles='code --profile C/C++ /home/iboigues/dotfiles'
