@@ -12,4 +12,4 @@ eval "$(starship init bash)"
 #export PATH=$PATH:/usr/local/bsvc/bin
 export EDITOR=code
 
-neofetch
+fastfetch --colors-block-range-start 9 --colors-block-width 3

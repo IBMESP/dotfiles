@@ -17,3 +17,6 @@ alias idea='$IDEA_DIR/bin/idea.sh'
 
 # dotfiles
 alias dotfiles='code --profile C/C++ /home/iboigues/dotfiles'
+
+# fastfetch
+alias fastfetch='fastfetch --colors-block-range-start 9 --colors-block-width 3'
