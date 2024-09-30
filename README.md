@@ -1,7 +1,7 @@
 # Audio
 - Package: PipeWire PipeWire-Pulse PavuControl
 # Bluethooth
-- Package: 
+- Package: Blueman Bluez
 # Theme configuration
 - Packages: qt5ct qt6ct brezze breeze-icons
 # Login
