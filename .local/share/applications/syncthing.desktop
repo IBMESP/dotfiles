@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Syncthing
+Exec=/usr/bin/syncthing
+Terminal=false
+Type=Application
+Icon=
+Categories=

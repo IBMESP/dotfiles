@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PyCharm
+Exec=/opt/pycharm-community-2024.2.3/bin/pycharm
+Terminal=false
+Type=Application
+Icon=
+Categories=Development;IDE
+X-Desktop-File-Install-Version=0.27

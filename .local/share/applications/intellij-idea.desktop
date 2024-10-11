@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=IntelliJ IDEA
+Exec=/opt/idea-IC-242.22855.74/bin/idea
+Terminal=false
+Type=Application
+Icon=
+Categories=Development;IDE
+X-Desktop-File-Install-Version=0.27
