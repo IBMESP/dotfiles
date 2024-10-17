@@ -8,9 +8,9 @@
       "custom/sep",
       "custom/appmenuicon",
       "custom/sep",
-      "tray",
+      "custom/dotfiles",
       "custom/sep",
-      "custom/dotfiles"
+      "tray"
     ],
 
     "modules-center": [
@@ -75,7 +75,7 @@
         "2": "󰨞",
         "3": "",
         "4": "󰚯",
-        "5": ""
+        "5": ""
       },
       "persistent-workspaces": {
         "*": 5
