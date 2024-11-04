@@ -19,3 +19,5 @@
 - Theme: grubvox-hard
 # Idle
 - Package: hypridle
+# Screenshot
+- Package: grim slurp 

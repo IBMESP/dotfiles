@@ -24,3 +24,5 @@ alias fastfetch='fastfetch --colors-block-range-start 9 --colors-block-width 3'
 # bluetooth
 alias bton='sudo systemctl start bluetooth.service'
 alias btoff='sudo systemctl stop bluetooth.service'
+
+alias vim='nvim'
