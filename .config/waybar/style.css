@@ -76,6 +76,10 @@ button:hover {
     color: #173e7d;
 }
 
+#workspaces button {
+  color: #173e7d;
+}
+
 #workspaces button.active {
     color: #ff7d25;
 }
