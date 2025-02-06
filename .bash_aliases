@@ -27,4 +27,4 @@ alias btoff='sudo systemctl stop bluetooth.service'
 
 alias vim='nvim'
 
-alias cmakes='cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..'
+alias cmakes='cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON'

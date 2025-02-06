@@ -7,10 +7,15 @@
     "modules-left": [
       "custom/sep",
       "custom/appmenuicon",
+    
+      "custom/browser",
       "custom/sep",
-      "custom/dotfiles",
+      "custom/terminal",
       "custom/sep",
-      "tray"
+      "custom/idea",
+      
+      "custom/sep",
+      "hyprland/window",
     ],
 
     "modules-center": [
@@ -41,19 +46,26 @@
     },
 
     "custom/appmenuicon": {
-      "format": "󰣆 ",
+      "format": "Apps",
       "on-click": "rofi -show drun -replace",
       "tooltip-format": "Open the application launcher"
     },
 
     "custom/idea": {
-      "format": "",
-      "on-click": ""
+      "format": " ",
+      "on-click": "/opt/idea-IC-242.22855.74/bin/idea"
     },
 
-    "custom/dotfiles": {
-      "format": " ",
-      "on-click": "code ~/dotfiles"
+    "custom/browser": {
+      "format": "󰖟 ",
+      "tooltip-format": "Open browser",
+      "on-click": "zen-browser"
+    },
+
+    "custom/terminal": {
+      "format": " ",
+      "tooltip-format": "Open terminal",
+      "on-click": "kitty"
     },
 
     "custom/bluetooth_devices": {
@@ -71,15 +83,28 @@
       "on-scroll-up": "hyprctl dispatch workspace e-1",
       "on-scroll-down": "hyprctl dispatch workspace e+1",
       "format-icons": {
-        "1": "󰖟",
-        "2": "",
-        "3": "",
-        "4": "󰚯",
-        "5": ""
+        //"1": "󰖟",
+        //"2": "",
+        //"3": "",
+        //"4": "",
+        //"5": ""
       },
       "persistent-workspaces": {
         "*": 5
       }
+    },
+
+    "hyprland/window": {
+      "format": "{class} - {title}",
+      "rewrite": {
+        "zen(.*) - (.*) — Zen Browser": "󰖟 $2",
+        "(.*) vim (.*)": " vim",
+        "jetbrains-idea-ce - (.*)": " $1",
+        "kitty - (.*)": "  $1",
+        "Rofi - rofi (.*)": " Rofi",
+        "TeamSpeak - (.*)": " TeamSpeak",
+        //"(.*) - (.*)": "$2"
+      },
     },
 
     "clock": {
@@ -127,7 +152,8 @@
       "tooltip-format-wifi": "   {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
       "tooltip-format-ethernet": "󰈁  {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
       "tooltip-format-disconnected": "Disconnected",
-      "max-length": 50
+      "max-length": 50,
+      "on-click":"kitty nmtui"
     },
 
     "pulseaudio": {
