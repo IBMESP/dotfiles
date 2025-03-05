@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Postman
+Exec=/opt/Postman/Postman
+Terminal=false
+Type=Application
+Icon=
+Categories=Development
+X-Desktop-File-Install-Version=0.27

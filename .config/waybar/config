@@ -97,7 +97,8 @@
     "hyprland/window": {
       "format": "{class} - {title}",
       "rewrite": {
-        "zen(.*) - (.*) — Zen Browser": "󰖟 $2",
+        "zen(.*)-(.*) — Zen Browser": "󰖟 $2",
+        "zen(.*) - Zen Browser": "󰖟 Zen Browser",
         "(.*) vim (.*)": " vim",
         "jetbrains-idea-ce - (.*)": " $1",
         "kitty - (.*)": "  $1",
