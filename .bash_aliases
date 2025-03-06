@@ -9,7 +9,7 @@ alias cat='bat'
 
 # apps aliases
 IDEA_DIR=$(ls -d /opt/idea-IC-* | sort -V | tail -n 1)
-alias idea='$IDEA_DIR/bin/idea.sh'
+alias idea='$IDEA_DIR/bin/idea'
 #alias obsidian='/opt/Obsidian-1.5.3.AppImage'
 
 # uxplay
@@ -26,5 +26,6 @@ alias bton='sudo systemctl start bluetooth.service'
 alias btoff='sudo systemctl stop bluetooth.service'
 
 alias vim='nvim'
+alias nvch='NVIM_APPNAME=nvchad nvim'
 
 alias cmakes='cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON'
