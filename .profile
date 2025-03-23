@@ -19,3 +19,5 @@
 
 #set PATH to m66k
 #[ -d "/usr/local/bsvc/bin" ] && PATH="/usr/local/bscv/bin:$PATH"
+
+[ -d "$HOME/.ciaoroot/v1.24.0-m1/build/bin"] && PATH="$HOME/.ciaoroot/v1.24.0-m1/build/bin:$PATH"

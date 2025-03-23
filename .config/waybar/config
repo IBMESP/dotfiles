@@ -53,7 +53,7 @@
 
     "custom/idea": {
       "format": " ",
-      "on-click": "/opt/idea-IC-242.22855.74/bin/idea"
+      "on-click": "/opt/idea-IC-243.26053.27/bin/idea"
     },
 
     "custom/browser": {
