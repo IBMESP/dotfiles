@@ -5,5 +5,5 @@
 [alias]
 	init-ig = "!git init && git config user.name 'iboigues' && git config user.email 'ig.boigues@gmail.com'"
 	init-ib = "!git init && git config user.name 'IB' && git config user.email '53451213+IBMESP@users.noreply.github.com'"
-	user-ig = "!git init && git config user.name 'iboigues' && git config user.email 'ig.boigues@gmail.com'"
-	user-ib = "!git init && git config user.name 'IB' && git config user.email '53451213+IBMESP@users.noreply.github.com'"
+	user-ig = "!git config user.name 'iboigues' && git config user.email 'ig.boigues@gmail.com'"
+	user-ib = "!git config user.name 'IB' && git config user.email '53451213+IBMESP@users.noreply.github.com'"
