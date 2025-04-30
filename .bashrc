@@ -1,9 +1,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
-esac
+#case "$TERM" in
+#    xterm-color|*-256color) color_prompt=yes;;
+#esac
+export TERM=xterm-256color
 
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
